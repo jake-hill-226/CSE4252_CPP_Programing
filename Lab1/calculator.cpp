@@ -75,10 +75,14 @@ int main(){
 		if(op != 'q'){
 			cout << "Enter first operand: ";
 			cin >> val_1;
+
+			// Check that input is integers only
 			while(cin.fail()){
 				if(cin.fail()){
 					cout << endl << "Invalid input try again" << endl;
 				}
+
+				// If there is an input error, clear out buffer and fail bit of cin
 				cin.clear();
 				cin.ignore(numeric_limits<streamsize>::max(), '\n');
 				cout << "Enter first operand: ";
@@ -105,6 +109,7 @@ int main(){
 			cin.clear();
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
+			
 			printBuffer(80);
 
 			// Catch Division by zero
