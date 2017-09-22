@@ -1,0 +1,26 @@
+
+//CSE 4252
+//Lab 1
+//Exercise 1
+//Jake Hill
+
+$> touch first.txt
+$> vim first.txt
+	 (in vim)
+	 - i
+	 - [type some stuff]
+	 - [esc]
+	 - :wq
+$> vim first.txt
+	(in vim)
+	- i
+	- [type some stuff]
+	- [esc]
+	- :saveas first_modified.txt
+	- :q
+$> mkdir ../Unix01
+$> cd ../Unix01
+$> mv ../Lab01/first.txt ./
+$> touch second.txt; vim second.txt
+	(modify in vim)
+$> cat first.txt second.txt > third.txt
