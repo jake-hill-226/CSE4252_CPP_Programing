@@ -90,6 +90,16 @@ int main(){
 			
 			cout << "Enter second operand: ";
 			cin >> val_2;
+
+			while(cin.fail()){
+				if(cin.fail()){
+					cout << endl << "Invalid input try again" << endl;
+				}
+				cin.clear();
+				cin.ignore(numeric_limits<streamsize>::max(), '\n');
+				cout << "Enter second operand: ";
+				cin >> val_2;
+			}
 			
 			//Clear out the buffer before accessing the stream again
 			cin.clear();
