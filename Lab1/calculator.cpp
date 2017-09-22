@@ -10,6 +10,7 @@
 #include <string>
 #include <sstream>
 #include <math.h>
+#include <limits>
 
 using namespace std;
 
@@ -21,6 +22,8 @@ int main(){
 	double val_2;
 	char op;
 	bool valid_input = false;
+
+	printBuffer(80);
 
 	cout << "Welcome to EasyCalc" << endl
 		 << "Edumacated Solutions" << endl
@@ -64,7 +67,7 @@ int main(){
 
 			//Clear out the buffer before accessing the stream again
 			cin.clear();
-			fflush(stdin);
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 		}
 
 		valid_input = false;
@@ -72,16 +75,27 @@ int main(){
 		if(op != 'q'){
 			cout << "Enter first operand: ";
 			cin >> val_1;
+			while(cin.fail()){
+				if(cin.fail()){
+					cout << endl << "Invalid input try again" << endl;
+				}
+				cin.clear();
+				cin.ignore(numeric_limits<streamsize>::max(), '\n');
+				cout << "Enter first operand: ";
+				cin >> val_1;
+			}
 			//Clear out the buffer before accessing the stream again
 			cin.clear();
-			fflush(stdin);
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 			
 			cout << "Enter second operand: ";
 			cin >> val_2;
 			
 			//Clear out the buffer before accessing the stream again
 			cin.clear();
-			fflush(stdin);
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+			printBuffer(80);
 
 			// Catch Division by zero
 			if(val_2 == 0 && op == '/'){
@@ -96,20 +110,20 @@ int main(){
 			// Perform the operation
 			// Check for overflow cases 
 			switch(op){
-				case '+' : if((val_1 + val_2) > val_1){
+				case '+' : if((val_1 + val_2) >= val_1){
 								result << (val_1 + val_2);
 							}else{
 								result.str("Numbers are too large");
 							}
 							
 							break;
-				case '-' : if((val_1 - val_2) < val_1){
+				case '-' : if((val_1 - val_2) <= val_1){
 								result << (val_1 - val_2);
 							}else{
 								result.str("Numbers are too large");
 							}
 							break;
-				case '*' : if((val_1 - val_2) > val_1){
+				case '*' : if((val_1 - val_2) >= val_1){
 								result << (val_1 - val_2);
 							}else{
 								result.str("Numbers are too large");
