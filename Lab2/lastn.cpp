@@ -129,10 +129,6 @@ int main(){
 
 				temp << curr_line << endl;
 			}
-			string first_fname = "first.txt";
-			string temp_fname = "temp.txt";
-			const char * fname_p = first_fname.c_str();
-			const char * temp_p = temp_fname.c_str();
 		}
 	}
 

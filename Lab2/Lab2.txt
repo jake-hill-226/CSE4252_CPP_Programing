@@ -1,0 +1,51 @@
+Script started on Fri 06 Oct 2017 11:52:17 PM EDT
+^[]0;/dev/pts/4@sl7^G^M
+^[[7m/home/6/hill.1957/CSE4252/CSE4252_CPP_Programing/Lab2^[[99G^[[27m  ^M% g++ -o lastn lastn.cpp^M^M
+^[]0;/dev/pts/4@sl7^G^M
+^[[7m/home/6/hill.1957/CSE4252/CSE4252_CPP_Programing/Lab2^[[99G^[[27m  ^M% lastn^M^M
+*********************************************************^M
+Size^M
+*********************************************************^M
+Size of 'first.txt': 1338^M
+^M
+Size of 'second.txt': 1830^M
+^M
+*********************************************************^M
+Number of Lines^M
+*********************************************************^M
+Number of lines first.txt: 11^M
+^M
+Number of lines second.txt: 16^M
+^M
+*********************************************************^M
+Modification of first.txt^M
+*********************************************************^M
+Enter value for n: 22^M
+ERROR: More lines than second.txt has.^M
+Enter value for n: 45 ^M
+ERROR: More lines than second.txt has.^M
+Enter value for n: 98 99 145^M
+ERROR: More lines than second.txt has.^M
+Enter value for n: 3^M
+^[]0;/dev/pts/4@sl7^G^M
+^[[7m/home/6/hill.1957/CSE4252/CSE4252_CPP_Programing/Lab2^[[99G^[[27m  ^M% cat first^G^M^M
+first - Copy.txt  first.txt         ^M^M
+^[[7m/home/6/hill.1957/CSE4252/CSE4252_CPP_Programing/Lab2^[[99G^[[27m  ^M% cat first.txt^M^M
+Algorithm increases revenue by 10 percent in six months^M
+Simchi-Levi developed a machine-learning algorithm, which won the INFORMS Revenue Management and Pricing Section Practice Award, and first implemented it at online retailer Rue La La.^M
+The initial research goal was to reduce inventory, but what the company ended up with was â<80><9c>a cutting-edge, demand-shaping application that has a tremendous impact on the retailerâ<80><99>s bottom line,â<80><9d> Simchi-Levi says.^M
+Rue La Laâ<80><99>s big challenge was pricing on items that have never been sold before and therefore required a pricing algorithm that could set higher prices for some first-time items and lower prices for others.^M
+Within six months of implementing the algorithm, it increased Rue La Laâ<80><99>s revenue by 10 percent.^M
+^M
+Forecast, learn, optimize^M
+Simchi-Levi's process involves three steps for generating better price predictions:^M
+Predicting consumer demand at Groupon^M
+Groupon has a huge product portfolio and launches thousands of new deals every day, offering them for only a short time period. Since Groupon has such a ^M
+short sales period, predicting demand was a big problem and forecasting near impossible. Applying Simchi-Levi<92>s approach to this use case began by ^M
+^[]0;/dev/pts/4@sl7^G^M
+^[[7m/home/6/hill.1957/CSE4252/CSE4252_CPP_Programing/Lab2^[[99G^[[27m  ^M% exit^M^M
+^[]0;/dev/pts/4@sl7^G^M
+exit^M
+
+Script done on Fri 06 Oct 2017 11:53:28 PM EDT
+
