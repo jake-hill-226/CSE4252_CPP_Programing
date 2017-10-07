@@ -109,8 +109,8 @@ int main(){
 			cin.clear();
 			cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
-			
-			printBuffer(80);
+		
+				printBuffer(80);
 
 			// Catch Division by zero
 			if(val_2 == 0 && op == '/'){

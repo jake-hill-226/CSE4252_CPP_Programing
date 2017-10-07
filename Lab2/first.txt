@@ -1,0 +1,11 @@
+Algorithm increases revenue by 10 percent in six months
+Simchi-Levi developed a machine-learning algorithm, which won the INFORMS Revenue Management and Pricing Section Practice Award, and first implemented it at online retailer Rue La La.
+The initial research goal was to reduce inventory, but what the company ended up with was “a cutting-edge, demand-shaping application that has a tremendous impact on the retailer’s bottom line,” Simchi-Levi says.
+Rue La La’s big challenge was pricing on items that have never been sold before and therefore required a pricing algorithm that could set higher prices for some first-time items and lower prices for others.
+Within six months of implementing the algorithm, it increased Rue La La’s revenue by 10 percent.
+
+Forecast, learn, optimize
+Simchi-Levi's process involves three steps for generating better price predictions:
+The first step involves matching products with similar characteristics to the products to be optimized. A relationship between demand and price is then predicted with the help of a machine-learning algorithm.
+The second step requires testing a price against actual sales, and adjusting the product's pricing curve to match real-life results.  
+In the third and final step, a new curve is applied to help optimize pricing across many products and time periods.
