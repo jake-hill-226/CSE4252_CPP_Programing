@@ -108,7 +108,7 @@ int main(){
 		for(int i = 0; i < num_lines_first - n_lines; i++){
 			getline(first_f, curr_line);
 		}
-		first_f.seekg(-1, ios_base::cur);
+		first_f.seekg(0, ios_base::cur);
 		first_f << s_stream.str();
 
 		int curr_pos = first_f.tellg();
