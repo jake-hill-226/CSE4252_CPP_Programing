@@ -1,0 +1,30 @@
+Script started on Fri 20 Oct 2017 10:04:39 PM EDT
+^[]0;/dev/pts/2@eta^G^M
+^[[7m/home/6/hill.1957/CSE4252_CPP_Programing/Lab3^[[80G^[[27m  ^M% g++ - ^Ho Vector Vector.cpp^M^M
+^[]0;/dev/pts/2@eta^G^M
+^[[7m/home/6/hill.1957/CSE4252_CPP_Programing/Lab3^[[80G^[[27m  ^M% Vector^M^M
+^M
+Enter 5integers:^M
+1 2 3 4 5 ^M
+v1: [ 1, 2, 3, 4, 5 ] ^M
+v2: [ 1, 2, 3, 4, 5 ] ^M
+v3: [ 1, 2, 3, 4, 5 ] ^M
+^M
+Arrays are equal!^M
+^[]0;/dev/pts/2@eta^G^M
+^[[7m/home/6/hill.1957/CSE4252_CPP_Programing/Lab3^[[80G^[[27m  ^M% Vector ^M^M
+^M
+Enter 5integers:^M
+0 0 0 0 0^M
+v1: [ 0, 0, 0, 0, 0 ] ^M
+v2: [ 0, 0, 0, 0, 0 ] ^M
+v3: [ 0, 0, 0, 0, 0 ] ^M
+^M
+Arrays are equal!^M
+^[]0;/dev/pts/2@eta^G^M
+^[[7m/home/6/hill.1957/CSE4252_CPP_Programing/Lab3^[[80G^[[27m  ^M% Vector^M^M
+^M
+^[]0;/dev/pts/2@eta^G^M
+^[[7m/home/6/hill.1957/CSE4252_CPP_Programing/Lab3^[[80G^[[27m  ^M% end^H^[[K^H^[[Kxit^M^M
+^[]0;/dev/pts/2@eta^G^M
+exit^M
